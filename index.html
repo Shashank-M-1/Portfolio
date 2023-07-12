@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .main{
+            display:flex;
+        }
+        .nav-bar{
+            position: fixed;
+            width:20%;
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        }
+        .nav-image img{
+            width: 70%;
+            border-radius:70%;
+            margin: 20px;
+        }
+        .nav-items ul{
+            list-style-type: none;
+            margin-top: 100px;
+            height:500px;
+        }
+        .nav-items a{
+            font-size: 27px;
+            text-decoration: none;
+            font-family:'Oswald', sans-serif;
+            line-height: 45px;
+            color:black;
+        }
+        .nav-items a:hover{
+            color: azure;
+            text-decoration: underline;
+        }
+        .main-container{
+            display:flex;
+        }
+        .content{
+            display:flex;
+            justify-content: center;
+        }
+        .content-home{
+            height:700px;
+            width:900px;
+            border:solid;
+            margin-top: 70px;
+            border-radius: 15px;
+            margin-left: 450px;
+            border-color:whitesmoke;
+        }
+        .content-home-name h1{
+            margin-left:10px;
+            font-size:30px;
+            color:white;
+        }
+        .content-home-name p{
+            font-size: large;
+            margin-left:10px;
+            color:white;
+            height:150px;
+            width: 400px;
+            text-align: justify;
+        }
+        .content-home-image img{
+            border-radius:15px 15px 15px 15px;
+            position: relative;
+            left: 580px;
+            top:150px;
+            height:300px;
+            width:300px;
+        }
+        .content-qualification{
+            height:700px;
+            width:900px;
+            border:solid;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius:15px;
+            display: flex;
+            margin-top:200px;
+            border-color:whitesmoke;
+        }
+        .content-qualification h2{
+            margin-left:10px;
+            color: white;
+            font-size:30px;
+        }
+        .content-qualification h3{
+            font-size:larger;
+            margin-top:50px;
+            height:500px;
+            color: white;
+        }
+        .skills{
+            height:700px;
+            width:900px;
+            border:solid;
+            border-radius:15px;
+            display: flex;
+            margin-top: 50px;
+            border-color:whitesmoke;
+        }
+        .skills h2{
+            margin-left:10px;
+            color: white;
+            font-size:30px;
+        }
+        .skills ul{
+            margin-left:0px;
+            font-size: larger;
+            margin-top: 100px;
+            height:500px;
+            color: white;
+        }
+        .skills-image img{
+            border-radius:10px;
+            position: relative;
+            left: 250px;
+            top:360px;
+            height:300px;
+            width: 400px;
+
+        }
+        .Projects{
+            height:700px;
+            width:900px;
+            border:solid;
+            border-radius:15px;
+            display: flex;
+            margin-top: 50px;
+            border-color:whitesmoke;
+        }
+        .Projects h2{
+            margin-left:10px;
+            color: white;
+            font-size:30px;
+        }
+        .Projects ul{
+            margin-left:0px;
+            font-size: larger;
+            margin-top: 100px;
+            height:500px;
+            font-size: 20px;
+            color: white;
+        }
+        .Projects a{
+            color:white;
+        }
+        .Projects-image img{
+            border-radius:10px;
+            position: relative;
+            left: 210px;
+            top:380px;
+            height:300px;
+            width: 400px;
+
+        }
+        .Info{
+            height:700px;
+            width:900px;
+            border:solid;
+            border-radius:15px;
+            display: flex;
+            margin-top: 50px;
+            border-color:whitesmoke;
+        }
+        .Info h2{
+            margin-left:10px;
+            color:white;
+            font-size:30px;
+        }
+        .Info ul{
+            margin-left:0px;
+            font-size:larger;
+            margin-top:100px;
+            height:500px;
+            color: white;
+        }
+        .Contacts{
+            height:200px;
+            width:900px;
+            border:solid;
+            border-radius:15px;
+            display: flex;
+            margin-top: 50px;
+            border-color:whitesmoke;
+        }
+        .Contacts h2{
+            margin-left:10px;
+            color:white;
+            font-size:30px;
+        }
+        .Contacts a{
+            color: white;
+        }
+        .Contacts img{
+            border-radius: 10px;
+            position:relative;
+            left:30px;
+            top:100px;
+            height:40px;
+            width: 40px;
+            margin-left: 40px;
+        }
+     
+      
+    </style>
+</head>
+<body bgcolor="black">
+    <div class="main">
+        <div class="main-container">
+            <!-- Nav Bar starts -->
+            <div class="nav-bar">
+                <div class="nav-image">
+                    <img src="D:\WEB\PROJECT\Portfolio\IMG20210126070003.jpg" alt="">
+                </div>
+            <div class="nav-items">
+                <ul>
+                    <a href="#shashank">
+                         <li>Home</li>
+                    </a> 
+                     <a href="#qual">
+                        <li>Qualifications</li>
+                    </a>
+                     <a href="#skills">
+                        <li>Skills</li>
+                    </a>
+                     <a href="#projects">
+                        <li>Projects</li>
+                    </a>
+                     <a href="#info">
+                        <li>Info</li>
+                    </a>
+                     <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+                </div>
+            </div>
+            <!-- nav bar ends -->
+            <!-- content bar starts -->
+            <div class="content">
+                <!-- Home page -->
+                <div class="content-home">
+                    <div class="content-home-name">
+                        <h1 id="shashank">Shashank M</h1>
+                        <p>Shashank is a highly motivated and dedicated professional with a passion for problem-solving and a strong knowledge in software development. Shashank has honed his skills in programming languages such as Python, SQL, HTML, CSS, Javascript and Testing. He also possesses excellent communication skills and the ability to work well in a team. Shashank is committed to delivering high-quality work and exceeding client expectations.</p>
+                    </div>
+                    <div class="content-home-image">
+                        <img src="IMG-20200117-WA0003.jpg" alt="">
+                    </div>
+                    <!-- Home page ends -->
+                    <!-- qualification starts -->
+                    <div class="content-qualification">
+                        <h2 id="qual">Qualifications</h2>
+                        <h3><br><br>
+                             <ul>
+                              <li>MBA</li><br>
+                              <ul>
+                                <li>Indian Institute of Tourism and Travel Management - Gwalior</li>
+                                <li>Percentage - 71%</li><br><br>
+                              </ul>
+                              <li>BBA</li><br>
+                              <ul>
+                                <li>Dayananda Sagar Junior Business School - Bengaluru</li>
+                                <li>Percentage - 66%</li><br>
+                              </ul>
+                            </ul>
+                          </ul></h3>
+                            
+                    </div>
+                    <!-- qualification ends -->
+                    <!-- skills starts -->
+                    <div class="skills">
+                        <h2 id="skills">Skills</h2>
+                        <ul>
+                            <li>Python</li><br><br>
+                            <li>SQL</li><br><br>
+                            <li>Testing</li><br><br>
+                            <li>HTML</li><br><br>
+                            <li>CSS</li><br><br>
+                            <li>Javascript</li><br><br>
+                            <li>CRM Software</li>
+                        </ul>
+                        <div class="skills-image">
+                            <img src="giphy.gif" alt="">
+                        </div>
+                    </div>
+                    <!-- skills ends -->
+                    <!-- Projects starts -->
+                    <div class="Projects">
+                        <h2 id="projects">Projects</h2>
+                        <ul>
+                            <a href="D:\WEB\PROJECT\GameProject\Gamesite\index.html">
+                                <li>Game Website</li><br><br>
+                            </a>
+                            <a href="D:\WEB\PROJECT\Portfolio\images\index.html">
+                                <li>Portfolio</li><br><br>
+                            </a>
+                            <a href="D:\WEB\PROJECT\Blr Patisserie\index.html">
+                                <li>Blr Patisserie</li><br><br>
+                            </a>
+                            <a href="D:\WEB\PROJECT\practicehtml.html">
+                                <li>StreamBoy</li>
+                            </a>
+                        </ul>
+                        <div class="Projects-image">
+                            <img src="project gif 1.gif" alt="">:
+                        </div>
+                    </div>
+                    <!-- Projects ends -->
+                    <!-- Info starts -->
+                    <div class="Info">
+                        <h2 id="info">Info</h2>
+                        <ul>
+                            <li>DOB: 27/02/1995</li><br><br>
+                            <li>Gender: Male</li><br><br>
+                            <li>Father's name: A.N Mohan Kumar</li><br><br>
+                            <li>Mother's name: Savitha.P</li><br><br>
+                            <li>Address: #149, 3rd 'E' Cross, 7th 'A' Main, Maruthi layout,
+                                         Vasanthapura, Bengaluru-560061.</li>
+                        </ul>
+                    </div>
+                    <!-- Info ends -->
+                    <!-- contacts starts -->
+                    <div class="Contacts">
+                        <h2 id="contact">Contacts</h2>
+                        <a href="https://www.linkedin.com/in/shashank-m-a81478137/"><img src="Linkedin logo.jpeg">
+                            </a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><img src="gmail logo.png">
+                            </a>
+                        <a href="https://www.instagram.com/shashank_m__/"><img src="insta logo.jpg">
+                           </a>
+                        <a href="https://api.whatsapp.com/send?phone=9980974412"><img src="whatsapp logo.png">
+                           </a>
+                        <a href="tel:+919980974412"><img src="phone logo.png">
+                           </a>
+
+                    </div>
+                    <!-- contacts ends -->
+                </div>
+                
+                <!-- content bar ends -->
+               
+            </div>
+    
+</body>
+</html>
